@@ -1,38 +1,193 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ifeanyi Nzube Precious | Customer Support Specialist & Virtual Assistant</title>
-<script src="https://cdn.tailwindcss.com"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<script>
-tailwind.config={theme:{extend:{fontFamily:{serif:['"Playfair Display"','serif'],sans:['"Plus Jakarta Sans"','sans-serif']},colors:{luxury:{900:'#0a0a0a',800:'#121212',700:'#1c1c1c',600:'#2a2a2a',gold:'#d4af37','gold-light':'#f3e5ab','gold-dark':'#aa8c2c'}}}}}
-</script>
+<meta name="description" content="Customer Support Specialist and Virtual Assistant with 5+ years of client-facing experience.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 <style>
-body{background-color:#0a0a0a;color:#e5e5e5;font-family:'Plus Jakarta Sans',sans-serif;overflow-x:hidden}
-.gold-gradient-text{background:linear-gradient(135deg,#f3e5ab 0%,#d4af37 50%,#aa8c2c 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
-.glass-card{background:rgba(18,18,18,.7);backdrop-filter:blur(12px);border:1px solid rgba(212,175,55,.15);transition:.3s}
-.glass-card:hover{border-color:rgba(212,175,55,.4);box-shadow:0 10px 30px -10px rgba(212,175,55,.15)}
-::-webkit-scrollbar{width:8px}::-webkit-scrollbar-track{background:#0a0a0a}
-::-webkit-scrollbar-thumb{background:#2a2a2a;border-radius:4px;border:1px solid rgba(212,175,55,.2)}
-::-webkit-scrollbar-thumb:hover{background:#d4af37}
+:root{--bg:#0a0a0a;--card:#141210;--line:rgba(212,175,55,.2);--ink:#e8e3d8;--mute:#9a948a;--gold:#d4af37;--gold2:#f3e5ab;--gold3:#aa8c2c}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px;background:#0a0a0a}
+body{background:#0a0a0a;color:#e8e3d8;font:400 16px/1.7 "Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.serif,h1,h2,h3,h4{font-family:"Playfair Display",Georgia,"Times New Roman",serif}
+.gold{color:#d4af37;background:linear-gradient(135deg,#f3e5ab,#d4af37 50%,#aa8c2c);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.wrap{max-width:1000px;margin:0 auto;padding:0 22px}
+.glass{background:rgba(20,18,16,.85);border:1px solid var(--line);border-radius:16px;transition:.3s}
+.glass:hover{border-color:rgba(212,175,55,.5);box-shadow:0 14px 34px -14px rgba(212,175,55,.3)}
+nav{position:fixed;top:0;left:0;right:0;z-index:10;background:rgba(10,10,10,.92);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{font-weight:700;font-size:1.05rem;letter-spacing:3px}
+.links{display:flex;align-items:center;gap:26px;font-size:14px;color:#c9c3b6}
+.links a:hover{color:var(--gold)}
+.pill{padding:9px 20px;border-radius:999px;background:linear-gradient(135deg,#d4af37,#aa8c2c);color:#14110a!important;font-weight:600}
+@media(max-width:700px){.links a:not(.pill){display:none}}
+.hero{min-height:100vh;display:flex;align-items:center;text-align:center;padding:110px 0 70px;background:radial-gradient(ellipse 70% 45% at 50% 0,rgba(212,175,55,.12),transparent 70%)}
+.badge{display:inline-block;padding:8px 18px;border:1px solid rgba(212,175,55,.4);border-radius:999px;font-size:11.5px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);background:var(--card)}
+h1{font-size:clamp(2.4rem,8.5vw,4.8rem);line-height:1.1;font-weight:700;margin:28px 0 22px}
+.sub{max-width:620px;margin:0 auto;color:#aaa396;font-size:1.1rem;font-weight:300}
+.btns{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:32px}
+.btn{display:inline-block;padding:15px 32px;border-radius:999px;font-weight:600;font-size:15px;border:1px solid var(--line);background:var(--card);color:#e8e3d8}
+.btn.main{background:linear-gradient(135deg,#d4af37,#aa8c2c);color:#14110a;border:0;box-shadow:0 12px 30px -10px rgba(212,175,55,.5)}
+.info{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-top:52px;text-align:left}
+.info .glass{padding:16px 18px}
+.k{font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--mute)}
+.v{font-weight:600;margin-top:4px;font-size:14px;word-break:break-word}
+.v b{color:var(--gold);margin-right:6px}
+section{padding:84px 0 8px}
+.alt{background:#0f0e0c}
+.head{text-align:center;margin-bottom:46px}
+.eyebrow{font-size:11.5px;letter-spacing:5px;text-transform:uppercase;color:var(--gold);font-weight:600}
+h2{font-size:clamp(1.9rem,5.5vw,2.8rem);font-weight:700;margin-top:10px}
+.head::after{content:"";display:block;width:56px;height:2px;background:var(--gold);margin:18px auto 0}
+.quote{position:relative;padding:36px 28px;font-size:1.15rem;line-height:1.9;color:#d9d3c4;font-weight:300}
+.quote::before{content:"\201C";position:absolute;top:-4px;left:16px;font:5rem/1 Georgia,serif;color:rgba(212,175,55,.25)}
+.tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.tags span,.chips span{padding:6px 14px;border-radius:999px;border:1px solid rgba(212,175,55,.25);background:rgba(42,42,42,.5);color:var(--gold);font-size:12.5px}
+.tl{position:relative;padding-left:30px}
+.tl::before{content:"";position:absolute;left:5px;top:6px;bottom:0;width:2px;background:linear-gradient(#d4af37,rgba(212,175,55,.08))}
+.job{position:relative;margin-bottom:22px}
+.job::before{content:"";position:absolute;left:-30px;top:26px;width:12px;height:12px;border-radius:50%;background:#d4af37;box-shadow:0 0 0 5px #0a0a0a,0 0 14px rgba(212,175,55,.6)}
+.job .glass{padding:24px 26px}
+.date{font-size:11.5px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);font-weight:600}
+.job h3{font-size:1.35rem;margin:6px 0 2px;line-height:1.3}
+.org{color:var(--mute);font-size:14px;margin-bottom:12px}
+ul{list-style:none}
+.job li{position:relative;padding-left:22px;margin:7px 0;font-size:15px;color:#cfc9bb}
+.job li::before{content:"\2713";position:absolute;left:0;color:var(--gold);font-size:13px}
+@media(min-width:820px){
+.tl{padding-left:0}
+.tl::before{left:50%;margin-left:-1px}
+.job{width:50%}
+.job:nth-child(odd){padding-right:34px}
+.job:nth-child(even){margin-left:50%;padding-left:34px}
+.job::before{left:auto;right:-6px}
+.job:nth-child(even)::before{right:auto;left:-6px}
+}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.grid3 .glass{padding:26px}
+.ic{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;background:rgba(212,175,55,.1);border:1px solid rgba(212,175,55,.3);color:var(--gold);font-size:18px;margin-bottom:14px}
+.grid3 h3{font-size:1.25rem;margin-bottom:10px}
+.grid3 li{font-size:14.5px;margin:6px 0;color:#cfc9bb}
+.grid3 li::before{content:"\203A  ";color:var(--gold)}
+.tools{text-align:center;margin-top:18px;padding:28px 20px}
+.tools h3{font-size:1.15rem;margin-bottom:16px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.chips span{padding:8px 18px;border-radius:12px;color:#d6d0c2;background:#0d0c0a;font-size:14px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:18px}
+.two .glass{padding:26px}
+.two h3{font-size:1.2rem;margin:4px 0 2px}
+.small{font-size:13.5px;color:var(--mute)}
+.cert{padding:12px 14px;margin-top:10px;border-radius:12px;background:#0d0c0a;border:1px solid rgba(255,255,255,.06)}
+.cert b{display:block;font-weight:600;font-size:14.5px}
+.cert span{font-size:12.5px;color:var(--gold)}
+.cert a{text-decoration:underline}
+.contact{text-align:center;padding:84px 0 90px}
+.cgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;text-align:left}
+.cgrid .glass{padding:22px;display:flex;align-items:center;gap:16px}
+.cgrid .ic{margin:0;flex-shrink:0}
+.cgrid a{font-weight:600;font-size:14px;word-break:break-word}
+footer{border-top:1px solid var(--line);padding:30px 0 40px;text-align:center;font-size:12px;color:var(--mute)}
+footer .logo{display:block;margin-bottom:8px;font-size:1.05rem}
+a:focus-visible{outline:2px solid var(--gold2);outline-offset:3px}
 </style>
 </head>
-<body class="selection:bg-luxury-gold selection:text-luxury-900">
+<body>
 
-<div class="fixed top-0 left-1/4 w-96 h-96 bg-luxury-gold/5 rounded-full blur-3xl pointer-events-none"></div>
-<div class="fixed bottom-10 right-1/4 w-96 h-96 bg-amber-600/5 rounded-full blur-3xl pointer-events-none"></div>
+<nav><div class="wrap">
+<a href="#top" class="logo gold serif">IFEANYI PRECIOUS</a>
+<div class="links"><a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Expertise</a><a href="#education">Education</a><a href="#contact" class="pill">Get in Touch</a></div>
+</div></nav>
 
-<header class="fixed top-0 left-0 right-0 z-50 glass-card border-b border-white/5" id="navbar">
-<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-<a href="#" class="font-serif text-xl tracking-wider font-bold gold-gradient-text">IFEANYI PRECIOUS</a>
-<nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-300">
-<a href="#about" class="hover:text-luxury-gold transition-colors">About</a>
-<a href="#experience" class="hover:text-luxury-gold transition-colors">Experience</a>
-<a href="#skills" class="hover:text-luxury-gold transition-colors">Expertise</a>
-<a href="#education" class="hover:text-luxury-gold transition-colors">Education</a>
-<a href="#contact" class="px-5 py-2.5 rounded-full bg-gradient-to-r from-luxury-gold to-luxury-gold-dark text-luxury-900 font-semibold hover:opacity-90 transition-opacity shadow-lg shadow-luxury-gold/10">Get in Touch</a>
+<header class="hero" id="top"><div class="wrap">
+<span class="badge">&#9670; Available for remote roles</span>
+<h1>Elevating Client Success Through <span class="gold">Excellence &amp; Precision</span></h1>
+<p class="sub">Customer Support Specialist &amp; Virtual Assistant with 5+ years of client-facing experience, merging careful record keeping with modern AI-assisted efficiency.</p>
+<div class="btns"><a class="btn main" href="mailto:ifeanyinzubeprecious@gmail.com">Hire Me Now &rarr;</a><a class="btn" href="#experience">Explore Experience &darr;</a></div>
+<div class="info">
+<div class="glass"><div class="k">Location</div><div class="v"><b>&#9670;</b>Anambra, Nigeria</div></div>
+<div class="glass"><div class="k">Experience</div><div class="v"><b>&#9670;</b>5+ Years</div></div>
+<div class="glass"><div class="k">Target Role</div><div class="v"><b>&#9670;</b>Remote Support / VA</div></div>
+<div class="glass"><div class="k">Direct Email</div><div class="v"><b>&#9670;</b>ifeanyinzubeprecious@gmail.com</div></div>
+</div>
+</div></header>
+
+<section class="alt" id="about"><div class="wrap">
+<div class="head"><div class="eyebrow">Executive Profile</div><h2>Professional Summary</h2></div>
+<div class="glass quote">Customer support and virtual assistant professional with 5+ years of client-facing experience in customer service, real estate, and remote support. Skilled at handling enquiries, resolving issues, keeping accurate Customer Relationship Management (CRM) records, and following up so nothing is missed. Trained in Library and Information Science, with strong research, organization, and record keeping skills. Comfortable with remote work and AI-assisted research.
+<div class="tags"><span>Information Management</span><span>Client Communication</span><span>CRM &amp; Record Keeping</span><span>AI-Assisted Research</span></div></div>
+</div></section>
+
+<section id="experience"><div class="wrap">
+<div class="head"><div class="eyebrow">Career Track Record</div><h2>Professional Experience</h2></div>
+<div class="tl">
+
+<div class="job"><div class="glass"><div class="date">Sep 2024 – Present</div><h3>Customer Support Specialist</h3><div class="org">Freelance</div><ul>
+<li>Handle client enquiries for 2 clients, with an average response time of 20 minutes.</li>
+<li>Keep client records and conversation history in CRM tools so follow-ups are never missed.</li>
+<li>Manage several client tasks at once, prioritizing work to meet deadlines.</li>
+<li>Organize shared Google Drive trackers, manage sharing permissions, and share updates with the team in Slack.</li>
+<li>Organize email with a label system across 6 categories so messages stay easy to find.</li></ul></div></div>
+
+<div class="job"><div class="glass"><div class="date">Sep 2026 – Present</div><h3>Co-Founder</h3><div class="org">WORQ GLOBAL · Part-Time, Remote</div><ul>
+<li>Respond to employer, professional, and service provider enquiries: 20 handled, helping bring in 29 sign-ups.</li>
+<li>Organize content information and follow-ups to keep communication consistent.</li></ul></div></div>
+
+<div class="job"><div class="glass"><div class="date">Sep 2020 – Present</div><h3>Realtor</h3><div class="org">Crystal Garden Estate · Part-Time, Commission-Based</div><ul>
+<li>Handle property enquiries from 20 prospects, asking questions to understand needs and matching each to suitable listings.</li>
+<li>Track conversations and follow up consistently, resulting in 15 viewings and 5 closed sales.</li>
+<li>Resolve client concerns throughout the property search and sales process.</li></ul></div></div>
+
+<div class="job"><div class="glass"><div class="date">Aug 2026 – Sep 2026</div><h3>Virtual Assistance &amp; Customer Support Intern</h3><div class="org">Afriment Career Enhancement Program</div><ul>
+<li>Carried out online research, lead research, and follow-up for business activities.</li>
+<li>Provided virtual and administrative support in a remote team, meeting agreed deadlines.</li>
+<li>Used digital and AI tools to support research and workflow tasks.</li></ul></div></div>
+
+<div class="job"><div class="glass"><div class="date">Sep 2015 – Nov 2018</div><h3>Customer Service Representative</h3><div class="org">Mega Living Multi-Purpose Cooperative Society</div><ul>
+<li>Resolved customer and member enquiries and complaints, escalating complex cases when needed.</li>
+<li>Maintained accurate customer records and documentation.</li>
+<li>Achieved an 88% positive customer satisfaction score through timely, helpful support.</li></ul></div></div>
+
+</div>
+</div></section>
+
+<section class="alt" id="skills"><div class="wrap">
+<div class="head"><div class="eyebrow">Capabilities &amp; Tools</div><h2>Core Skills &amp; Software Stack</h2></div>
+<div class="grid3">
+<div class="glass"><div class="ic">&#9742;</div><h3>Customer Support</h3><ul><li>Customer Support and Service</li><li>Client Communication</li><li>Follow-up and Issue Resolution</li><li>CRM and Record Keeping</li></ul></div>
+<div class="glass"><div class="ic">&#9776;</div><h3>Virtual Assistance</h3><ul><li>Administrative Support</li><li>Email Management</li><li>Task Prioritization</li><li>Data Entry and Documentation</li></ul></div>
+<div class="glass"><div class="ic">&#10022;</div><h3>Research &amp; AI</h3><ul><li>Online and Lead Research</li><li>AI-Assisted Research</li><li>AI-Assisted Content Drafting</li></ul></div>
+</div>
+<div class="glass tools"><h3>Tools &amp; Software</h3><div class="chips"><span>Google Workspace</span><span>CRM Tools</span><span>Zoom</span><span>Slack</span><span>Canva</span><span>ChatGPT</span><span>Gemini</span></div></div>
+</div></section>
+
+<section id="education"><div class="wrap">
+<div class="head"><div class="eyebrow">Credentials</div><h2>Education &amp; Certifications</h2></div>
+<div class="two">
+<div class="glass"><div class="date">2016 – 2018</div><h3>Higher National Diploma (HND)</h3><p style="margin-top:6px;font-weight:600">Library and Information Science</p><p class="small">Federal Polytechnic Oko, Anambra State</p>
+<div class="cert"><b>National Youth Service Corps (NYSC)</b><span>2019 – 2020</span></div></div>
+<div class="glass"><div class="date">Certifications &amp; Training</div>
+<div class="cert"><b>Virtual Assistance &amp; Customer Support</b><span>Afriment Career Enhancement Program, Aug–Sep 2026</span></div>
+<div class="cert"><b>Executive Virtual Assistant Course</b><span>Young Nigeria Works, Oct 2025</span></div>
+<div class="cert"><b>Professional Diploma in CRM</b><span>Udemy (MTF Institute), Aug 2025 · <a href="https://ude.my/UC-05e147b3-17c7-4bb1-a103-a56bd2ed882b" target="_blank" rel="noopener">Verify</a></span></div>
+<div class="cert"><b>IT In-Demand Skill Certification</b><span>Digital Witch, Aug 2025</span></div>
+<div class="cert"><b>Foundations: Data, Data, Everywhere</b><span>Google via Coursera, Sep 2025 · <a href="https://coursera.org/verify/FYWUG80ZMOSB" target="_blank" rel="noopener">Verify</a></span></div></div>
+</div>
+</div></section>
+
+<section class="alt contact" id="contact"><div class="wrap">
+<div class="head"><div class="eyebrow">Let’s Connect</div><h2>Start a Conversation</h2></div>
+<p style="color:#aaa396;max-width:480px;margin:-20px auto 36px">Looking for a dedicated remote customer support specialist or virtual assistant? Reach out directly.</p>
+<div class="cgrid">
+<div class="glass"><div class="ic">&#9993;</div><div><div class="k">Email Me</div><a href="mailto:ifeanyinzubeprecious@gmail.com">ifeanyinzubeprecious@gmail.com</a></div></div>
+<div class="glass"><div class="ic">in</div><div><div class="k">LinkedIn Profile</div><a href="https://linkedin.com/in/ifeanyi-precious-9a550516a" target="_blank" rel="noopener">View Profile</a></div></div>
+</div>
+<div class="btns" style="margin-top:36px"><a class="btn main" href="mailto:ifeanyinzubeprecious@gmail.com">Send Me an Email</a></div>
+</div></section>
+
+<footer><span class="logo gold serif">IFEANYI NZUBE PRECIOUS</span>Customer Support Specialist | Virtual Assistant | CRM<br><br>© 2026 All Rights Reserved.</footer>
+
+</body>
+</html>
