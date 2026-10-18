@@ -1,38 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ifeanyi Nzube Precious | Customer Support Specialist & Virtual Assistant</title>
-<meta name="description" content="Customer Support Specialist and Virtual Assistant with 5+ years of client-facing experience. CRM, client follow-up, remote support.">
+<script src="https://cdn.tailwindcss.com"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script>
+tailwind.config={theme:{extend:{fontFamily:{serif:['"Playfair Display"','serif'],sans:['"Plus Jakarta Sans"','sans-serif']},colors:{luxury:{900:'#0a0a0a',800:'#121212',700:'#1c1c1c',600:'#2a2a2a',gold:'#d4af37','gold-light':'#f3e5ab','gold-dark':'#aa8c2c'}}}}}
+</script>
 <style>
-:root{--bg:#09090a;--card:rgba(22,20,16,.72);--line:rgba(212,175,55,.2);--ink:#ebe6da;--mute:#9d968a;--gold:#d4af37;--gold2:#f3e5ab;--gold3:#aa8c2c}
-*{box-sizing:border-box;margin:0}
-html{scroll-behavior:smooth;scroll-padding-top:80px}
-body{background:var(--bg);color:var(--ink);font:400 16px/1.7 "Plus Jakarta Sans",system-ui,sans-serif;overflow-x:hidden}
-body::before,body::after{content:"";position:fixed;width:420px;height:420px;border-radius:50%;filter:blur(90px);pointer-events:none;z-index:-1}
-body::before{top:-120px;left:10%;background:rgba(212,175,55,.09)}
-body::after{bottom:-120px;right:5%;background:rgba(180,110,30,.07)}
-a{color:inherit;text-decoration:none}
-.serif,h1,h2,h3{font-family:"Playfair Display",Georgia,serif}
-.gold{background:linear-gradient(135deg,var(--gold2),var(--gold) 50%,var(--gold3));-webkit-background-clip:text;background-clip:text;color:transparent}
-.wrap{max-width:1000px;margin:0 auto;padding:0 22px}
-nav{position:fixed;top:0;left:0;right:0;z-index:10;background:rgba(9,9,10,.78);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
-nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
-.logo{font:700 1.05rem "Playfair Display",Georgia,serif;letter-spacing:3px}
-.links{display:flex;align-items:center;gap:28px;font-size:14px;color:#c9c3b6}
-.links a:hover{color:var(--gold)}
-.pill{padding:9px 20px;border-radius:999px;background:linear-gradient(135deg,var(--gold),var(--gold3));color:#14110a!important;font-weight:600}
-@media(max-width:700px){.links a:not(.pill){display:none}}
-.hero{min-height:100svh;display:flex;align-items:center;text-align:center;padding:110px 0 70px}
-.badge{display:inline-flex;align-items:center;gap:9px;padding:7px 18px;border:1px solid rgba(212,175,55,.4);border-radius:999px;font-size:11.5px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);background:var(--card)}
-.badge i{width:7px;height:7px;border-radius:50%;background:var(--gold);box-shadow:0 0 10px var(--gold)}
-h1{font-size:clamp(2.5rem,8.5vw,4.9rem);line-height:1.08;font-weight:700;margin:28px 0 22px;letter-spacing:-.5px}
-.sub{max-width:620px;margin:0 auto;color:#aaa396;font-size:1.1rem;font-weight:300}
-.btns{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:34px}
-.btn{padding:15px 32px;border-radius:999px;font-weight:600;font-size:15px;border:1px solid var(--line);background:var(--card);transition:.3s}
-.btn.main{background:linear-gradient(135deg,var(--gold),var(--gold3));color:#14110a;border:0;box-shadow:0 12px 34px -10px rgba(212,175,55,.5)}
-.btn:hover{transform:translateY(-2px);border-color:var(--gold)}
+body{background-color:#0a0a0a;color:#e5e5e5;font-family:'Plus Jakarta Sans',sans-serif;overflow-x:hidden}
+.gold-gradient-text{background:linear-gradient(135deg,#f3e5ab 0%,#d4af37 50%,#aa8c2c 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.glass-card{background:rgba(18,18,18,.7);backdrop-filter:blur(12px);border:1px solid rgba(212,175,55,.15);transition:.3s}
+.glass-card:hover{border-color:rgba(212,175,55,.4);box-shadow:0 10px 30px -10px rgba(212,175,55,.15)}
+::-webkit-scrollbar{width:8px}::-webkit-scrollbar-track{background:#0a0a0a}
+::-webkit-scrollbar-thumb{background:#2a2a2a;border-radius:4px;border:1px solid rgba(212,175,55,.2)}
+::-webkit-scrollbar-thumb:hover{background:#d4af37}
+</style>
+</head>
+<body class="selection:bg-luxury-gold selection:text-luxury-900">
+
+<div class="fixed top-0 left-1/4 w-96 h-96 bg-luxury-gold/5 rounded-full blur-3xl pointer-events-none"></div>
+<div class="fixed bottom-10 right-1/4 w-96 h-96 bg-amber-600/5 rounded-full blur-3xl pointer-events-none"></div>
+
+<header class="fixed top-0 left-0 right-0 z-50 glass-card border-b border-white/5" id="navbar">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<a href="#" class="font-serif text-xl tracking-wider font-bold gold-gradient-text">IFEANYI PRECIOUS</a>
+<nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-300">
+<a href="#about" class="hover:text-luxury-gold transition-colors">About</a>
+<a href="#experience" class="hover:text-luxury-gold transition-colors">Experience</a>
+<a href="#skills" class="hover:text-luxury-gold transition-colors">Expertise</a>
+<a href="#education" class="hover:text-luxury-gold transition-colors">Education</a>
+<a href="#contact" class="px-5 py-2.5 rounded-full bg-gradient-to-r from-luxury-gold to-luxury-gold-dark text-luxury-900 font-semibold hover:opacity-90 transition-opacity shadow-lg shadow-luxury-gold/10">Get in Touch</a>
